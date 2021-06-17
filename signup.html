@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      localStorage.getItem("username") != null && window.location.replace("/");
+    </script>
+    <h2 class="header-signin">Login to shop!</h2>
+    <div class="sign-in-div">
+      <div class="img">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiGh28j-bujrxUN6548q8_MscVbqumGURgCg&usqp=CAU"
+          height="100"
+          width="100"
+        />
+      </div>
+      <div class="form-div">
+        <input
+          name="username"
+          type="text"
+          placeholder="Enter username"
+          class="username"
+        /><br />
+        <input
+          name="password"
+          type="password"
+          placeholder="Enter password"
+          class="password"
+        /><br />
+      </div>
+    </div>
+    <div class="login"><button class="button">Login</button></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

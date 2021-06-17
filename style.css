@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Lato:wght@300&display=swap");
+
+body {
+  background: #718ca1;
+}
+.sign-in-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  font-family: "Lato", sans-serif;
+}
+
+.img {
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+}
+
+.form-div {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* margin-top: 50px; */
+  padding: 50px 120px;
+  background: white;
+  border-radius: 7px;
+}
+
+.form-div input {
+  border: none;
+  padding: 10px 20px;
+  width: 100%;
+  font-size: 15px;
+  margin-top: 30px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: solid 2px #59748c;
+  border-radius: 5px;
+}
+
+.form-div input:focus {
+  outline: none;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.login .button {
+  width: 30%;
+  padding: 12px 0;
+  background-color: #354d62;
+  border: none;
+  font-size: 15px;
+  color: white;
+  border-radius: 5px;
+}
+
+.img img {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translateY(0%) translateX(-50%);
+  z-index: 1;
+  border-radius: 100px;
+}
+
+.header-signin {
+  text-align: center;
+  font-size: 50px;
+  color: #354d62;
+  font-family: "Pacifico", cursive;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
